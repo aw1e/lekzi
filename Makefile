@@ -1,10 +1,10 @@
-all: lec2 lec3 lec4
+all: lekzia2 lekzia3 lekzia4
 
-lec2: Program2_1
+lec2: lekzia2_1
 
-lec3: Program3_1 Program3_2
+lec3: lekzia3_1 lekzia3_2
 
-lec4: Program4_1 Program4_2 Program4_3
+lec4: lekzia4_1 lekzia4_2 lekzia4_3
 
 Program2_1:
 	gcc 'lekzi/lekzia2/lekzia2.c' -o 'lekzi/lekzia2/lekzia2.out'
